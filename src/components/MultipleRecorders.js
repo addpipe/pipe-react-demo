@@ -153,21 +153,11 @@ const MultipleRecorders = () => {
   return (
     <div>
       <div>
-        <h1>Pipe React Demo with JavaScript</h1>
-        <h2>Multiple recorders embedded</h2>
+        <h2>Multiple recording clients embedded</h2>
         <p>
           <small>
             Made by the <a href="https://addpipe.com">Pipe Recording Platform</a>
           </small>
-        </p>
-        <p>
-          Demo react project integrating the <a
-            target="_blank"
-            href="https://www.npmjs.com/package/@addpipe/react-pipe-media-recorder"
-            rel="noreferrer"
-          >
-            Pipe NPM package for React
-          </a> using JavaScript.
         </p>
         {RECORDER_IDS.map((id, idx) => (
           <span key={id}>
@@ -187,19 +177,6 @@ const MultipleRecorders = () => {
           </span>
         ))}
       </div>
-      <p id="data"></p>
-      <h2>Links:</h2>
-      <ul>
-        <li>
-          Code for this demo on GitHub: <a
-            target="_blank"
-            href="https://github.com/addpipe/pipe-react-demo-ts"
-            rel="noreferrer"
-          >
-            https://github.com/addpipe/pipe-react-demo-ts
-          </a>
-        </li>
-      </ul>
     </div>
   );
 };

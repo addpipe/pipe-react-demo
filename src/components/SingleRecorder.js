@@ -96,16 +96,11 @@ const SingleRecorder = () => {
 
   return (
     <div>
-      <h1>Pipe React Demo</h1>
-      <h2>One single recorder embedded</h2>
+      <h2>One single recording client embedded</h2>
       <p>
-        Demo react project integrating the <a
-          target="_blank"
-          href="https://www.npmjs.com/package/@addpipe/react-pipe-media-recorder"
-          rel="noreferrer"
-        >
-          Pipe NPM package for React
-        </a> using JavaScript.
+        <small>
+          Made by the <a href="https://addpipe.com">Pipe Recording Platform</a>
+        </small>
       </p>
       {!isLoaded && <div className="placeholder">Loading the Pipe recorder</div>}
       <div id="custom-id"></div>
